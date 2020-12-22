@@ -46,7 +46,6 @@ body {
 
 .box {
 	color: #fffcf2;
-	/* text-shadow: 0 0 5px #ccc5b9; */
 	transition: 0.5s ease;
 	margin: 1vw;
 	border-radius: 20px;
@@ -60,7 +59,7 @@ body {
 	align-items: center;
 }
 .box:hover {
-		box-shadow: 1px 1px 4px 4px #252422;
+	box-shadow: 1px 1px 4px 4px #252422;
 }
 .box p {
 	white-space: nowrap;
@@ -89,6 +88,7 @@ body {
 	font-weight: bold;
 }
 #discription {
+	font-size: 150%;
 	margin: 2vw;
 }
 #reload {
