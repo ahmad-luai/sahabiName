@@ -25,7 +25,6 @@ body {
 	background-color: white;
 }
 #sahabaName {
-	position: relative;
 	padding: 3vh 6vw;
 	margin: 3vh auto 3vw auto;
 	font-size: 8vw;
@@ -36,8 +35,8 @@ body {
 	white-space: nowrap;
 	font-size: 3vw;
 	position: absolute;
-	top: 115%;
-	left: 35%;
+	top: 25%;
+	left: 40%;
 	content: 'رضي الله عنه/عنها';
 }
 #boxes {
