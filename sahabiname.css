@@ -31,16 +31,14 @@ body {
 	background-color: #ccc5b996;
 	border: 1vw solid #eb5e28;
 }
-#sahabaName::after {
+#blessHim {
 	white-space: nowrap;
 	font-size: 3vw;
-	position: absolute;
-	top: 25%;
-	left: 40%;
-	content: 'رضي الله عنه/عنها';
+	margin-top: 0;
+	margin-bottom: 1vh;
 }
 #boxes {
-	margin: 3vh auto;
+	margin: auto;
 	width: 100vw;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
