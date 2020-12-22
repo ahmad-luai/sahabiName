@@ -60,7 +60,7 @@ body {
 	align-items: center;
 }
 .box:hover {
-	box-shadow: 1px 1px 4px 4px #eb5f28cc;
+		box-shadow: 1px 1px 4px 4px #252422;
 }
 .box p {
 	white-space: nowrap;
