@@ -1,0 +1,113 @@
+html {
+	font-family: 'Almarai', sans-serif;
+	text-align: center;
+}
+body {
+	background-image: url('triangles and crosses1.png');
+	background-size: 100%;
+	background-position: center;
+}
+
+#backgroundimg {
+	display: none;
+}
+#paraCont {
+	margin: auto;
+	/* background-color: royalblue; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title {
+	font-weight: bold;
+	margin: 0;
+	font-size: 6vw;
+	background-color: white;
+}
+#sahabaName {
+	position: relative;
+	padding: 3vh 6vw;
+	margin: 3vh auto 3vw auto;
+	font-size: 8vw;
+	background-color: rgba(255, 255, 0, 0.329);
+	border: 1vw solid goldenrod;
+}
+#sahabaName::after {
+	white-space: nowrap;
+	font-size: 3vw;
+	position: absolute;
+	top: 115%;
+	left: 35%;
+	content: 'رضي الله عنه/عنها';
+}
+#boxes {
+	margin: 3vh auto;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.box {
+	transition: 0.1s ease;
+	margin: 1vw;
+	border-radius: 20px;
+	margin-bottom: 2vh;
+	width: 90%;
+	height: 30vh;
+	background-color: #f4b797;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	align-items: center;
+}
+.box:hover {
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.box p {
+	white-space: nowrap;
+	/* text-shadow: 0 0 5px white; */
+	font-size: 180%;
+}
+
+#popUp {
+	overflow: hidden;
+	position: fixed;
+	top: 12%;
+	left: 10%;
+	width: 80vw;
+	height: 0vh;
+	background-color: #eee;
+	box-shadow: 0 0 10px black;
+	transition: 0.3s ease-out;
+	display: flex;
+	flex-direction: column;
+}
+#goodJob {
+	font-size: 200%;
+}
+#sahabiNameDiscription {
+	font-size: 200%;
+	font-weight: bold;
+}
+#discription {
+	margin: 2vw;
+}
+#reload {
+	font-size: 130%;
+	font-family: 'Alamani';
+	color: white;
+	padding: 2vh 10vw;
+	border: none;
+	border-radius: 10px;
+	background-color: royalblue;
+	width: fit-content;
+	margin: auto auto 2vh auto;
+	cursor: pointer;
+	align-items: center;
+}
+#reload:focus {
+	outline: none;
+}
+#reload:hover {
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
