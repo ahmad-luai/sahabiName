@@ -11,6 +11,7 @@ var reload = document.getElementById('reload');
 reload.addEventListener('click', reloadFn);
 function reloadFn() {
 	window.location.reload();
+	window.scrollTo(0, 0);
 }
 var sahabaName = document.getElementById('sahabaName');
 
